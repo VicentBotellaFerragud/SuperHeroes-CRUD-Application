@@ -21,6 +21,5 @@ namespace SuperHeroAPI.Controllers
                 }
             };
         }
-
     }
 }
