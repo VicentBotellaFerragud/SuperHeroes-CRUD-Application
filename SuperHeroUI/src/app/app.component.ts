@@ -13,6 +13,8 @@ export class AppComponent {
 
   superHeroes: SuperHero[] = [];
 
+  heroToEdit?: SuperHero;
+
   constructor(private superHeroService: SuperHeroService) { }
 
   ngOnInit() {
@@ -22,6 +24,24 @@ export class AppComponent {
       this.superHeroes = data;
       
     });
+
+  }
+
+  initNewSuperHero() {
+
+    this.heroToEdit = new SuperHero();
+
+  }
+
+  editSuperHero(superHero: SuperHero) {
+
+    this.heroToEdit = superHero;
+
+  }
+
+  updateSuperHeroesList(superHeroes: SuperHero[]) {
+
+    this.superHeroes = superHeroes;
 
   }
 
