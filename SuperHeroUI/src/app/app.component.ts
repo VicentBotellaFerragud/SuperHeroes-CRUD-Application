@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
+import { Subject, takeUntil } from 'rxjs';
 import { SuperHero } from './models/super-hero';
 import { SuperHeroService } from './services/super-hero.service';
 
@@ -7,7 +8,7 @@ import { SuperHeroService } from './services/super-hero.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnDestroy {
   
   title = 'SuperHeroUI';
 
@@ -15,11 +16,13 @@ export class AppComponent {
 
   heroToEdit?: SuperHero;
 
+  destroy = new Subject();
+
   constructor(private superHeroService: SuperHeroService) { }
 
   ngOnInit() {
 
-    this.superHeroService.getSuperHeros().subscribe((data: SuperHero[]) => {
+    this.superHeroService.getSuperHeros().pipe(takeUntil(this.destroy)).subscribe((data: SuperHero[]) => {
 
       this.superHeroes = data;
       
@@ -42,6 +45,12 @@ export class AppComponent {
   updateSuperHeroesList(superHeroes: SuperHero[]) {
 
     this.superHeroes = superHeroes;
+
+  }
+
+  ngOnDestroy() {
+
+    this.destroy.next(true);
 
   }
 
