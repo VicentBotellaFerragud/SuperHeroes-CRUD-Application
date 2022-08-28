@@ -2194,11 +2194,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vicen\\Desktop\\Programació\\Weiterbildung Developer Akademie\\Front-end projects\\Angular projects\\CRUD-Application\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
+      "projectUniqueName": "C:\\Users\\vicen\\Desktop\\Programació\\Weiterbildung Developer Akademie\\Full-stack projects\\SuperHeroes-CRUD-Application\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
       "projectName": "SuperHeroAPI",
-      "projectPath": "C:\\Users\\vicen\\Desktop\\Programació\\Weiterbildung Developer Akademie\\Front-end projects\\Angular projects\\CRUD-Application\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
+      "projectPath": "C:\\Users\\vicen\\Desktop\\Programació\\Weiterbildung Developer Akademie\\Full-stack projects\\SuperHeroes-CRUD-Application\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
       "packagesPath": "C:\\Users\\vicen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vicen\\Desktop\\Programació\\Weiterbildung Developer Akademie\\Front-end projects\\Angular projects\\CRUD-Application\\SuperHeroAPI\\SuperHeroAPI\\obj\\",
+      "outputPath": "C:\\Users\\vicen\\Desktop\\Programació\\Weiterbildung Developer Akademie\\Full-stack projects\\SuperHeroes-CRUD-Application\\SuperHeroAPI\\SuperHeroAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vicen\\AppData\\Roaming\\NuGet\\NuGet.Config",

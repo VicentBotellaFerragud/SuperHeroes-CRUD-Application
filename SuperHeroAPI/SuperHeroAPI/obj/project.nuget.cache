@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ruYXm7Hm9V52NghLOctUDJ0mLq6GPxxwh0Jw5pytAR6byX7gGaiheUyxnjc6OX0spJkURyqhIT4aNMdBUArtNA==",
+  "dgSpecHash": "NVpTmZRltm7xGmNb8tCMQaXFkuYzs+JkIbDi506YG5ABuMuSZI4kLcG7hcQAwzGIa/JMAlX5mNjHRM6lR1lTFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vicen\\Desktop\\Programació\\Weiterbildung Developer Akademie\\Front-end projects\\Angular projects\\CRUD-Application\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
+  "projectFilePath": "C:\\Users\\vicen\\Desktop\\Programació\\Weiterbildung Developer Akademie\\Full-stack projects\\SuperHeroes-CRUD-Application\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vicen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\vicen\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
