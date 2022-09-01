@@ -2,39 +2,39 @@
 
     <h2>{{ superHero.name }}</h2>
 
-    <div>
+    <div class="my-1">
 
         Name:
         <input [(ngModel)]="superHero.name" placeholder="Name"/>
 
     </div>
 
-    <div>
+    <div class="my-1">
 
         First Name:
         <input [(ngModel)]="superHero.firstName" placeholder="First Name"/>
 
     </div>
 
-    <div>
+    <div class="my-1">
 
         Last Name:
         <input [(ngModel)]="superHero.lastName" placeholder="Last Name"/>
 
     </div>
 
-    <div>
+    <div class="my-1">
 
         Place:
-        <input [(ngModel)]="superHero.place" placeholder="Place" />
+        <input [(ngModel)]="superHero.place" placeholder="Place"/>
 
     </div>
 
     <div>
 
-        <button (click)="updateSuperHero(superHero)" *ngIf="superHero.id">Save</button>
-        <button (click)="deleteSuperHero(superHero)" *ngIf="superHero.id">Delete</button>
-        <button (click)="createSuperHero(superHero)" *ngIf="!superHero.id">Create</button>
+        <button class="update-btn" (click)="updateSuperHero(superHero)" *ngIf="superHero.id">Save</button>
+        <button class="delete-btn" (click)="deleteSuperHero(superHero)" *ngIf="superHero.id">Delete</button>
+        <button class="create-btn" (click)="createSuperHero(superHero)" *ngIf="!superHero.id">Create</button>
 
     </div>
 

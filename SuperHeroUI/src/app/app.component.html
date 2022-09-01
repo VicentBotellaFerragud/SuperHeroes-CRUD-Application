@@ -1,4 +1,6 @@
-<button (click)="initNewSuperHero()">Create a new super hero</button>
+<h1>Welcome super heroes fan!</h1>
+
+<h3>In this application you can create, see, edit and delete your own super heroes. Have fun!</h3>
 
 <table>
 
@@ -26,5 +28,7 @@
   </tbody>
 
 </table>
+
+<button class="create-btn" (click)="initNewSuperHero()">Create a new super hero</button>
 
 <app-edit-super-hero [superHero]="heroToEdit" (superHeroesUpdated)="updateSuperHeroesList($event)"></app-edit-super-hero>

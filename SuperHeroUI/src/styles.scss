@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global style */
+
+* {
+    font-family: monospace; 
+}
+
+body {
+    background-color: #765252;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.my-1 {
+    margin-block: .25rem;
+}
