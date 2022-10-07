@@ -2189,19 +2189,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vicen\\.nuget\\packages\\": {}
+    "C:\\Users\\VicentBotellaFerragu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vicen\\Desktop\\Programació\\Weiterbildung Developer Akademie\\Full-stack projects\\SuperHeroes-CRUD-Application\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
+      "projectUniqueName": "C:\\Users\\VicentBotellaFerragu\\Documents\\Projekte\\Eigene Projekte\\SuperHeroes-CRUD-Application\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
       "projectName": "SuperHeroAPI",
-      "projectPath": "C:\\Users\\vicen\\Desktop\\Programació\\Weiterbildung Developer Akademie\\Full-stack projects\\SuperHeroes-CRUD-Application\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
-      "packagesPath": "C:\\Users\\vicen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vicen\\Desktop\\Programació\\Weiterbildung Developer Akademie\\Full-stack projects\\SuperHeroes-CRUD-Application\\SuperHeroAPI\\SuperHeroAPI\\obj\\",
+      "projectPath": "C:\\Users\\VicentBotellaFerragu\\Documents\\Projekte\\Eigene Projekte\\SuperHeroes-CRUD-Application\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
+      "packagesPath": "C:\\Users\\VicentBotellaFerragu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\VicentBotellaFerragu\\Documents\\Projekte\\Eigene Projekte\\SuperHeroes-CRUD-Application\\SuperHeroAPI\\SuperHeroAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vicen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\VicentBotellaFerragu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2265,7 +2265,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
